@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Metronome trapezoid body -->
+    <path
+        android:fillColor="#1E242C"
+        android:strokeColor="#FF7A45"
+        android:strokeWidth="3.5"
+        android:pathData="M43,26 L65,26 L77,82 L31,82 Z" />
+    <!-- Base bar -->
+    <path
+        android:fillColor="#FF7A45"
+        android:pathData="M34,72 L74,72 L76,82 L32,82 Z" />
+    <!-- Pendulum arm -->
+    <path
+        android:strokeColor="#FFC857"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,74 L67,34" />
+    <!-- Pendulum weight -->
+    <path
+        android:fillColor="#2CEAA3"
+        android:pathData="M58,47 L67,47 L65,55 L56,55 Z" />
+    <!-- Pivot circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,71 A3,3 0 1,1 53.99,71 Z" />
+</vector>
